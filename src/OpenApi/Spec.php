@@ -1,6 +1,6 @@
 <?php
 
-namespace BradTipper\AppBackend\OpenApi;
+namespace BradTipper\RestfulFramework\OpenApi;
 
 /**
  * Tiny OpenAPI 3.1 builder. Controllers describe their endpoints in a static

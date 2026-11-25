@@ -13,7 +13,7 @@ composer require bradtipper/silverstripe-openapi-export
 Give each routed controller a static `describe` method:
 
 ```php
-use BradTipper\AppBackend\OpenApi\Spec;
+use BradTipper\RestfulFramework\OpenApi\Spec;
 
 public static function describe(Spec $spec): void
 {
@@ -37,7 +37,7 @@ Only controllers routed in `Director.rules` are described. See `src/OpenApi/Spec
 ## Config
 
 ```yaml
-BradTipper\AppBackend\OpenApi\OpenApiExportTask:
+BradTipper\RestfulFramework\OpenApi\OpenApiExportTask:
   server_url: 'https://example.com'      # optional; defaults to the site base URL
   schema_providers:                      # classes with a static register(Spec $spec) for shared schemas
     - App\Api\CommonSchemas

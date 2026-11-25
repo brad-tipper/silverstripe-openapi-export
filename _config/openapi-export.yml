@@ -2,5 +2,5 @@
 Name: openapi-export
 ---
 # Classes with a static register(Spec $spec) that add shared schemas to every export.
-BradTipper\AppBackend\OpenApi\OpenApiExportTask:
+BradTipper\RestfulFramework\OpenApi\OpenApiExportTask:
   schema_providers: []

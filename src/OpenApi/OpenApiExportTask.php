@@ -1,6 +1,6 @@
 <?php
 
-namespace BradTipper\AppBackend\OpenApi;
+namespace BradTipper\RestfulFramework\OpenApi;
 
 use SilverStripe\Control\Director;
 use SilverStripe\Core\Config\Configurable;
@@ -91,7 +91,7 @@ class OpenApiExportTask extends BuildTask
         if ($configured !== '') {
             return $configured;
         }
-        $appConfig = 'BradTipper\AppBackend\AppConfig';
+        $appConfig = 'BradTipper\RestfulFramework\AppConfig';
         if (class_exists($appConfig)) {
             return (string) $appConfig::get('public_url');
         }
