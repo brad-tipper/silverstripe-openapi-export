@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BradTipper\\AppBackend\\OpenApi\\": "src/OpenApi/"
+            "BradTipper\\RestfulFramework\\OpenApi\\": "src/OpenApi/"
         }
     },
     "minimum-stability": "dev",
